@@ -91,6 +91,13 @@
     <title>Document</title>
 </head>
 <body>
+
+    <div> 
+        <?php 
+            for( $i=0; $i < count($domandeRisposte); $i++){ 
+                    echo "{$domandeRisposte[$i]["Risposta"]}"; 
+                } ?> 
+    </div>
     <h2><?php  echo "{$domandeRisposte[0]["Domande"]}"; ?></h2>
 
     <div>
