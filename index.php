@@ -94,39 +94,17 @@
 
     <div> 
         <?php 
-            for( $i=0; $i < count($domandeRisposte); $i++){ 
-                    echo "{$domandeRisposte[$i]["Risposta"]}"; 
-                } ?> 
+            for( $i=0; $i < count($domandeRisposte); $i++){ ?> 
+                <h2><?php echo "{$domandeRisposte[$i]["Domande"]}";  ?> </h2>
+                <div><?php echo "{$domandeRisposte[$i]["Risposta"]}"; ?></div>
+                    
+                    
+        <?php } ?> 
     </div>
-    <h2><?php  echo "{$domandeRisposte[0]["Domande"]}"; ?></h2>
-
-    <div>
-        <?php  echo "{$domandeRisposte[0]["Risposta"]}"; ?>
-    </div>
-
-    <h2><?php  echo "{$domandeRisposte[1]["Domande"]}"; ?></h2>
-
-    <div>
-        <?php  echo "{$domandeRisposte[1]["Risposta"]}"; ?>
-    </div>
-
-    <h2><?php  echo "{$domandeRisposte[2]["Domande"]}"; ?></h2>
-
-    <div>
-        <?php  echo "{$domandeRisposte[2]["Risposta"]}"; ?>
-    </div>
-
-    <h2><?php  echo "{$domandeRisposte[3]["Domande"]}"; ?></h2>
-
-    <div>
-        <?php  echo "{$domandeRisposte[3]["Risposta"]}"; ?>
-    </div>
+     
     
-<p></p>
-    <ul>
-        <li></li>
-    </ul>
-    <h3></h3>
-       <a href='#'></a>
+
 </body>
 </html>
+
+<h2></h2>
